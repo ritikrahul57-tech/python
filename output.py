@@ -31,3 +31,28 @@ def myfunc():
 myfunc()
 
 
+x='easy one'
+def myfunc():
+    x='awesome'
+    print('python is'+x)
+myfunc()
+print('python is'+x)
+
+
+def func():
+    global x
+    x='esay one'
+myfunc()
+print('python is'+x)    
+
+
+
+x='awesome'
+def myfunc():
+    global x
+    x='easy one'
+myfunc()
+print('python is'+x)
+
+
+
